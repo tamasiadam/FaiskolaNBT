@@ -1,0 +1,9 @@
+[https://docs.google.com/document/d/1w_ojnOyEdSMbj0HufRsHr3CwMmRGo2LdoF_Vq-n9_2Q/edit?tab=t.0]
+https://uiverse.io/elements
+
+A ____ cspat által készített Faiskola projektet készítettte a következő csapat tagok:
+    -Nagy Ádám
+    -Tamási Ádám
+    -Barta Bulcsú
+
+A projekt célja egy weboldal létrehozása 
