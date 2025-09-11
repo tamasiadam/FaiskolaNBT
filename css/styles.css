@@ -1,0 +1,44 @@
+body {
+    font-family: "Archivo Black", sans-serif;
+}
+
+nav {
+    background-color: #2e8b57;
+}
+
+#cim {
+    color: white;
+    padding-left: 10px;
+}
+
+.nav-button {
+  background-color: white;
+  border: none;
+}
+
+.nav-button:hover {
+    color: #155724;
+}
+
+
+.box {
+      display: flex;
+      align-items: center;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 800px;
+      margin: 40px auto;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+
+.box img {
+    max-width: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.text{
+    flex: 1;
+}
