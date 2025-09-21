@@ -1,64 +1,59 @@
 body {
     font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     background-color: rgba(194, 169, 161, 1);
-    margin: auto;
+    margin: 0;
+    height: 100%;
+    width: 100%;
 }
 
 header {
     background-color: #a0c172;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     border-bottom: rgba(0, 0, 0, 0.15) solid;
+    position: relative;
 }
 
 nav {
-    background-color: #a0c172;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-right: 110px;
 }
-
 
 #logo {
-    margin: 2em;
-    margin-bottom: 0.2em;
+    align-items: left;
+    margin: 1em;
+    margin-right: auto;
+    margin-bottom: 0.7em;
     width: 110px;
-    height: auto;
-    max-width: 100%;
+    height: 100%;
+    max-width: 100%;;
 }
 
-#cim {
-
-    color: white;
-    padding-left: 0.1em;
-    padding-top: 0.2em;
-    font-size: 3.5em;
-}
-
-#nagyfero {
-    padding-left: 2em;
-    padding-top: 0.5em; 
+#logo:hover {
+    transform: scale(1.03);
+    transition: 0.4s ease;
 }
 
 .nav-button {
-
     appearance: none;
     background-color: #c1db9b;
     border: 0.125em solid #1A1A1A;
     border-radius: 0.9375em;
     box-sizing: border-box;
     color: #3B3B3B;
-    cursor: default;
-    display: inline-block;
-    font-size: 16px;
+    cursor: default;;
+    font-size: 1em;
     font-weight: 600;
-    line-height: normal;
     margin: 0.9em;
+    margin-top: 2em;;
     min-width: 0;
-    outline: none;
     padding: 0.8em 3.3em;
-    text-align: center;
     text-decoration: none;
     transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-    user-select: none;
-    touch-action: manipulation;
- 
+
 }
 
 .nav-button:disabled {
@@ -77,10 +72,25 @@ nav {
     transform: translateY(0);
 }
 
+#novenycim {
+    color: #362d20;
+    text-align: center;
+    padding-left: 0.3em;
+    margin-left: 0em;
+    padding-top: 0.5em; 
+    font-size: 3.5em;
+    padding-bottom: 1.5em;
+}
+
+#nagyfero {
+    padding-left: 2em;
+    padding-top: 0.5em; 
+}
+
+
 
 .box {
     display: flex;
-    align-items: center;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -101,14 +111,18 @@ nav {
 }
 
 footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
     background-color: rgb(158, 130, 120);
-    padding: 25px;
+    padding: 20px;
 }
 
 
 .card {
     display: inline-block;
-    margin: 1em;
+    text-align: center;
+    margin: 1.2em;
     padding: 0.1em;
     max-width: 350px;
     border-radius: 0.5rem;
@@ -129,6 +143,7 @@ footer {
     object-fit: cover;
     width: 100%;
     height: 200px;
+    border-radius: 0.5rem 0.5rem 0 0;
     background-color: rgb(125, 184, 147);
 }
 
