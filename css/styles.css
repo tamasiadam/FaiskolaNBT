@@ -111,11 +111,17 @@ nav {
 }
 
 footer {
+    display: block;
     position: absolute;
     width: 100%;
     bottom: 0px;
     background-color: rgb(158, 130, 120);
-    padding: 20px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    border-top: rgba(0, 0, 0, 0.10) solid;
 }
 
 
@@ -133,6 +139,14 @@ footer {
 
 .card a {
     text-decoration: none
+}
+
+.cards1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 .content {
