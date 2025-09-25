@@ -79,15 +79,13 @@ nav {
     margin-left: 0em;
     padding-top: 0.5em; 
     font-size: 3.5em;
-    padding-bottom: 1.5em;
+    padding-bottom: 0.5em;
 }
 
 #nagyfero {
     padding-left: 2em;
     padding-top: 0.5em; 
 }
-
-
 
 .box {
     display: flex;
@@ -123,7 +121,6 @@ footer {
     box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
     border-top: rgba(0, 0, 0, 0.10) solid;
 }
-
 
 .card {
     display: inline-block;
@@ -195,4 +192,18 @@ footer {
 
 .action:hover span {
     transform: translateX(4px);
+}
+
+.search-container {
+    display: inline;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.search-bar {
+    border: solid rgba(0, 0, 0, 0.6);
+    border-radius: 0.4em;
+    width: 20vh;
+    height: 3vh;
+    
 }
