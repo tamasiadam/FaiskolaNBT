@@ -1,12 +1,12 @@
 body {
     font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    /* background-color: rgba(194, 169, 161, 1);  */
     background-image: url("../images/hatter.png");
-    background-repeat: no-repeat;
-    background-size: 1920px 1080px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     margin: 0;
-    height: 100%;
-    width: 100%;
+    min-height: 100vh;
 }
 
 header {
@@ -47,7 +47,7 @@ nav {
     border-radius: 0.9375em;
     box-sizing: border-box;
     color: #3B3B3B;
-    cursor: default;;
+    cursor: pointer;
     font-size: 1em;
     font-weight: 600;
     margin: 0.9em;
@@ -56,7 +56,6 @@ nav {
     padding: 0.8em 3.3em;
     text-decoration: none;
     transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-
 }
 
 .nav-button:disabled {
@@ -80,14 +79,14 @@ nav {
     text-align: center;
     padding-left: 0.3em;
     margin-left: 0em;
-    padding-top: 0.5em; 
+    padding-top: 0.5em;
     font-size: 3.5em;
     padding-bottom: 0.5em;
 }
 
 #nagyfero {
     padding-left: 2em;
-    padding-top: 0.5em; 
+    padding-top: 0.5em;
 }
 
 .box {
@@ -96,10 +95,10 @@ nav {
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 40px auto;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
-    }
+}
 
 .box img {
     max-width: 200px;
@@ -111,17 +110,6 @@ nav {
     flex: 1;
 }
 
-footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
-    padding: 20px 0px 20px 0px;
-    text-align: center;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-    border-top: rgba(0, 0, 0, 0.10) solid;
-    background-color: rgb(158, 130, 120);
-
-}
 
 .card {
     display: inline-block;
@@ -206,13 +194,110 @@ footer {
     border-radius: 0.4em;
     width: 20vh;
     height: 3vh;
-    
-}
-
-section{
-    background-image: url("../images/hatter.png");
 }
 
 h1{
     text-align: center;
+}
+
+#nagyferi{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+#feri2 {
+    max-width: 100%;
+    height: 500px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    padding: 40px 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    border-top: rgba(0, 0, 0, 0.10) solid;
+    background-color: rgba(158, 130, 120, 0.9);
+    margin-top: 5em;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    color: white;
+    text-align: center;
+}
+
+.footer-section h3 {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.footer-section p {
+    color: white;
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #c1db9b;
+    text-decoration: underline;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.2);
+    color: #c1db9b;
 }
