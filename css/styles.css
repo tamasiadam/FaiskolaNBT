@@ -301,3 +301,82 @@ footer {
     transform: scale(1.2);
     color: #c1db9b;
 }
+
+/* Team Section CSS Example */
+/* ...add to your styles.css or a new CSS file... */
+
+.team-section {
+    padding: 4rem 0;
+    background: #F0FDF4;
+}
+
+.team-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.team-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1F2937;
+    margin-bottom: 3rem;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .team-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.team-card {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    overflow: hidden;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.team-card:hover {
+    transform: scale(1.05);
+}
+
+.team-img {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.team-info {
+    padding: 1.5rem;
+}
+
+.team-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #1F2937;
+    margin-bottom: 0.5rem;
+}
+
+.team-role {
+    color: #22C55E;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.team-desc {
+    color: #4B5563;
+    font-size: 1rem;
+}
