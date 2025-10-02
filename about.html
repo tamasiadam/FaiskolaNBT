@@ -16,41 +16,31 @@
             </nav>
     </header>
 
-    <div class="box">
-        <img>
-        <div class="text">
-            <h2>A Zöld Liget Faiskola</h2>
-            <p>A Zöld Liget Faiskola egy családi vállalkozás, amely több mint két évtizede foglalkozik facsemeték, dísznövények és cserjék termesztésével 
-            és forgalmazásával. Szenvedélyünk a természet, és célunk, hogy vásárlóink kertjei a lehető legszebben virágozzanak – legyen szó egyetlen gyümölcsfáról vagy egy egész sövénysorról.<p>
-        </div>
-    </div>
-
- <!-- Team Section HTML Example -->
 <section class="team-section">
     <div class="team-container">
         <h2 class="team-title">Csapatunk</h2>
         <div class="team-grid">
             <!-- Nagy Feró -->
             <div class="team-card">
-                <img src="./images/feromutat.jpg" alt="Nagy Feró" class="team-img">
+                <img src="images/feromutat.jpg" alt="Nagy Feró" class="team-img">
                 <div class="team-info">
                     <h3 class="team-name">Nagy Feró</h3>
                     <p class="team-role">Alapító & Főkertész</p>
                     <p class="team-desc">„Jó napot, gyerekek, én vagyok az a nagy kertész, aki már annyi évszázadot túlélt, hogy a nevem is kezd kimenni a divatból. Tudjátok, én voltam az, aki még a dinoszauruszok kertjét is gondozta, vagy legalábbis azt hiszem... Régen minden fa nagyobb volt, mint most, de hát az idő meg a politika rendesen megmetszette a világot is, nem csak a fákat. Én aztán tudom, hogy melyik növényből lesz virág és melyikből csak gaz, bár néha már elfelejtem, melyik az, amit locsolni kell, meg melyik az, amit szórni kell… vagy talán inkább a bort kéne újratölteni, hogy meglegyen az erő! Szóval, ha egy jó öreg kertészt keresnek, aki már mindent látott, de már nem mindig tudja, hogy mit is csinál, én vagyok az emberük!”</p>
                 </div>
             </div>
-            <!--  -->
+            <!-- Orbán Viktor -->
             <div class="team-card">
-                <img src="./images/orban.jpg" alt="Kiss Anna" class="team-img">
+                <img src="images/orban.jpg" alt="Orbán Viktor" class="team-img">
                 <div class="team-info">
                     <h3 class="team-name">Orbán Viktor</h3>
                     <p class="team-role">Ügyvezető, támogató</p>
                     <p class="team-desc">„Üdvözlöm, Orbán Viktor vagyok, kertész. Én vagyok az, aki megmenti a magyar földet a gazoktól – vagyis azoktól, akik nem az én magjaimat ültetik. Tudják, nálam a kertben semmi sem nőhet meg engedély nélkül, mert különben jönnek a permetezők és lelocsolják a „nemkívánatos” növényeket. A természet rendje nálam egyszerű: vagy lojális virág vagy semmi. Persze, az időnként előforduló kis száradásért nem én vagyok a hibás, csak a környezet nem elég lojális a növényeimhez. De ne aggódjanak, a kertészetem egyedülálló – itt senki sem virágzik meg szabadon, csak az, akit én engedek.”</p>
                 </div>
             </div>
-            <!-- Team Member 3 -->
+            <!-- Semjén Zsolt -->
             <div class="team-card">
-                <img src="./images/semjen.jpg" alt="Varga Béla" class="team-img">
+                <img src="images/semjen.jpg" alt="Semjén Zsolt" class="team-img">
                 <div class="team-info">
                     <h3 class="team-name">Semjén Zsolt</h3>
                     <p class="team-role">Kertész</p>
@@ -59,4 +49,73 @@
             </div>
         </div>
     </div>
+    <div class="signup">
+        <form>
+            <h2>Vedd fel velünk a kapcsolatot!</h2>
+            
+            <label for="name">Név:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Üzenet:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <div class="checkbox-container">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">Elolvastam és elfogadom az adatvédelmi tájékoztatót</label>
+            </div>
+            
+            <input type="submit" value="Küldés">
+            
+            <!-- <h2></h2>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul> -->
+        </form>
+    </div>
+    <footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>FeróFa</h3>
+            <p>Ahol a fák is lázadnak!<br>
+            Rock'n'roll a kertben.</p>
+        </div>
+        
+        <div class="footer-section">
+            <h3>Elérhetőség</h3>
+            <div class="footer-contact">
+                <div class="contact-item">
+                    <span>E-mail:</span>
+                    <a href="mailto:info@ferofa.hu">info@ferofa.hu</a>
+                </div>
+                <div class="contact-item">
+                    <span>Telefon: </span>
+                    <a href="tel:+36201234567">+36 20 123 4567</a>
+                </div>
+                <div class="contact-item">
+                    <span></span>
+                    <span>Hatvanpuszta, Magyarország</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-section">
+            <h3>Gyors linkek</h3>
+            <p><a href="index.html">Kezdőlap</a></p>
+            <p><a href="novenyek.html">Növények</a></p>
+            <p><a href="about.html">Rólunk</a></p>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2025 FeróFa - Minden jog fenntartva</p>
+        <p id="footer_desc">Nagy Feró faiskola - A természet csótánya</p>
+    </div>
+</footer>
 </section>
+</body>
+</html>

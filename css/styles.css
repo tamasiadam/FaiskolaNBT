@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #a0c172;
+    background-color: rgb(160, 193, 114);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -84,9 +84,11 @@ nav {
     padding-bottom: 0.5em;
 }
 
-#nagyfero {
+#kezdolap-cim {
     padding-left: 2em;
     padding-top: 0.5em;
+    color: rgba(255, 255, 255, 0.85);
+
 }
 
 .box {
@@ -213,12 +215,17 @@ h1{
 
 footer {
     position: relative;
-    width: 100%;
+    max-width: 100%;
     padding: 40px 20px;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     border-top: rgba(0, 0, 0, 0.10) solid;
     background-color: rgba(158, 130, 120, 0.9);
     margin-top: 5em;
+}
+
+#footer_desc {
+    font-size: 0.9em;
+    margin-top: 0.5rem;
 }
 
 .footer-content {
@@ -302,12 +309,9 @@ footer {
     color: #c1db9b;
 }
 
-/* Team Section CSS Example */
-/* ...add to your styles.css or a new CSS file... */
-
 .team-section {
     padding: 4rem 0;
-    background: #F0FDF4;
+    background: rgba(140, 170, 98, 0.5);
 }
 
 .team-container {
@@ -379,4 +383,116 @@ footer {
 .team-desc {
     color: #4B5563;
     font-size: 1rem;
+}
+
+.signup {
+    background-color: transparent;
+    border-radius: 1.4em;
+    padding: 2em;
+    margin: 8vh auto;
+    max-width: 700px;
+    min-height: 80vh;
+}
+
+form {
+    margin: auto;
+    background-color: rgb(194, 228, 147);
+    padding: 2.5em;
+    border-radius: 0.8em;
+    max-width: 100%;
+    filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 1));
+}
+
+form h2 {
+    color: rgba(0, 0, 0, 0.85);
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+form h2:not(:first-child) {
+    margin-top: 2em;
+    padding-top: 1.5em;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    border-radius: 0.55em;
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1.5em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+form textarea {
+    border-radius: 0.55em;
+    width: 100%;
+    min-height: 120px;
+    padding: 0.8em;
+    margin-bottom: 1.5em;
+    border: 1px solid rgba(0, 0, 0, 0.56);
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 1em;
+    resize: none;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5em;
+    gap: 0.8em;
+}
+
+form input[type="checkbox"] {
+    width: auto;
+    margin: 0.3em 0 0 0;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.checkbox-container label {
+    margin: 0;
+    cursor: pointer;
+    flex: 1;
+}
+
+form input[type="submit"] {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    border-radius: 0.55em;
+    padding: 1em 2em;
+    font-size: 1em;
+    cursor: pointer;
+    width: 100%;
+    transition: 250ms;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: rgba(0, 0, 0, 0.85);
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+form ul {
+    text-align: left;
+    margin: 1em 0;
+    padding-left: 1.5em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+form ul li {
+    margin-bottom: 0.8em;
+    line-height: 1.4;
 }
